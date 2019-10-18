@@ -1,27 +1,35 @@
-Name:
+Name: Maddox Schaller
 
 
-1.
+1. Source code is code created by a programmer in java but byte code is code created by compiler in java.
 
-2.
+2. A class is a part of a program that describes an object
 
-3.
+3. Where the java virtual machine starts running the program
 
-4.
+4. A string a sequence of characters
 
-5.
+5. Yes
 
-6.
+6. A program thats combiles correctly, but does not work as intended
 
-7.
+7. It prints out the line you’ve written and an invisible character that starts a new line
 
-8.
+8. //.   //jdsfgbbfvkj
 
-9.
+9. /* text */.   /* sdjgekjgv xfvhsdfkvcjgsvazcgv*/
 
-10.
+10. Hello Mercury!
+Hello Venus!
+Hello Earth!
+Hello Mars!
+Hello Jupiter!
+Hello Saturn!
+Hello Uranus!
+Hello Neptune!
+Hello Pluto!
 
-11.
+11. byte.	 short. 	int. 	long	float.  	double.  	char.  	boolean.
 
 12.
 
