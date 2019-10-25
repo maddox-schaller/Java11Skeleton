@@ -31,17 +31,17 @@ Hello Pluto!
 
 11. byte.	 short. 	int. 	long	float.  	double.  	char.  	boolean.
 
-12.
+12. long
 
-13.
+13. double
 
-14.
-a.
-b.
+14. 
+a. int
+b. Double
 
-15.
+15. 19345
 
-16.
+16. A single character
 
-17.
+17. A single true or false value
 
