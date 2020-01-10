@@ -1,18 +1,18 @@
-Assignment 7
-Name:
+Assignment 8
+Name:Maddox
 
-1.
+1. Because floating point arithmetic is not exact 
 
-2.
+2. True      false
 
-3.
+3. 6
 
-4.
+4. That you can’t change the value of the variable that it precedes 
 
-5.
+5. 100%
 
-6.
+6. &&
 
-7.
+7. ||
 
-8.
+8. !=

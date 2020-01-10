@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class FAnimal {
+class IGIVEUP {
     public static void main(String[] args) {
         
         String repeat;

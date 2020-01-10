@@ -36,7 +36,7 @@ Chapter 9:
 
 2. byte, short, int, long
 
-3. 123.45
+3. Money = 123.45;
 
 Chapter 10:
 

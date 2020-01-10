@@ -1,31 +1,56 @@
 Assignment 7
-Name:
+Name:Maddox
 
 Chapter 13
 ==========
 
-1.
+1. It same
 
-2.
+2. Dog: java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2564)
+	at DoubleDouble.main(DoubleDouble.java:10)
 
-3.
+   Same for dog123
 
-4.
 
-5.
+3. 730          0.023
 
-6.
+4. 12.0
 
-7.
+5. A static method is a method that belongs to a class, not an instance of a class
 
-8.
+6. NaN
+
+7. Not a number
+
+8. Because the first line is defaulted to a integer number, so java will drop the decimals. But the second line, being a double, can handle decimals.
 
 
 Chapter 16
 ==========
 
-1.
+1. {}
 
-2.
+2. == is the equal to operator      != is the not equal to operator
 
-3.
+3. An if statement inside another if statement
+
+
+Programming Questions
+=====================
+
+1. See AnnualApplianceCost.java
+
+2. See BrickDrop.java
+
+3. See DiscountPrices.java
+
+4. See OrderChecker.java
+
+5. See LastChanceGas.java
+
+6. See PieEatingContest.java
+
+7. See GroundBeefValueCalc.java
