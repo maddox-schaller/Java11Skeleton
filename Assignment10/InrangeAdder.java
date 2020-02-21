@@ -11,9 +11,9 @@ class InrangeAdder {
         inRangeSum = 0;
         
         outOfRangeSum =0;
-        
+        //ask for input
         System.out.println("Enter low end: ");
-
+        
         lowEnd = scan.nextDouble();
         
         System.out.println("Enter high end: ");
