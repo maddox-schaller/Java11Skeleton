@@ -16,3 +16,16 @@ Name:Maddox
 7. ||
 
 8. !=
+
+9. See Deli.java
+
+10. See Microwave.java
+
+11. See FantasyGame.java
+
+12. See CheckChecker.java
+
+13. See TirePressure1.java
+
+14. See TirePressure2.java
+
