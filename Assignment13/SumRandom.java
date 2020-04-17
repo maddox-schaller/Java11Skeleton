@@ -2,21 +2,19 @@ import java.util.Scanner;
 import java.util.Random;
 
 class SumRandom {
-
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
-        Random generateRandom = new Random();
-        int num, counter;
+        Random generaterandom = new Random();
 
-        for (counter = 1; counter <= 100; counter++) {
-            num = generateRandom.nextInt(25) + 1;
-            System.out.println(counter + " " + num);
+        int num, sum = 0;
+        //loop 100 times
+        for (int i = 0; i < 100; i++) {
+            //random number from 1-25 (inclusive)
+            num = generaterandom.nextInt(25) + 1;
+            //add num to the sum
+            sum += num;
         }
-
-        System.out.print("Let's enter a number just for fun:");
-        num = scan.nextInt();
-        System.out.println("The number you entered was: " + num);
-
+        //print sum
+        System.out.println("The sum of all the numbers is " + sum);
     }
 }
