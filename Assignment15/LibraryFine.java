@@ -10,9 +10,17 @@ class LibraryFine {
         char choice;
         String fineCatagory;
 
+        //loop while book has some amount of days overdue
         while (daysOverdue > 0) {
-            System.out.print("How many days is this book overdue: ");
-            fineCatagory = scan.nextLine();
+            //get input
+            System.out.println("How many days is this book overdue: ");
+            daysOverdue = scan.nextInt();
+
+            scan.nextLine();
+            //stop if days overdue is 0
+            if (daysOverdue == 0) {
+                break;
+            }
 
             System.out.print("Enter the fine catagory: ");
             fineCatagory = scan.nextLine();
@@ -21,33 +29,34 @@ class LibraryFine {
             fineCatagory = fineCatagory.toUpperCase();
             choice = fineCatagory.charAt(0);
 
-            while (true) {
-                switch (choice) {
-                    case 'A':
-                    fineAmount = daysOverdue * A;
-                    break;
-                    case 'B':
-                    fineAmount = daysOverdue * B;
-                    break;
-                    case 'C':
-                    fineAmount = daysOverdue * C;
-                    break;
-                    case 'D':
-                    fineAmount = daysOverdue * D;
-                    break;
-                    case 'E':
-                    fineAmount = daysOverdue * E;
-                    break;
-                    case 'F':
-                    fineAmount = daysOverdue * F;
-                    break;
-                    default:
-                    System.out.print("Invalid imput");
-                    continue;
-                }
-                
+
+            switch (choice) {
+                //find the correct case
+                case 'A':
+                fineAmount = daysOverdue * A;
+                break;
+                case 'B':
+                fineAmount = daysOverdue * B;
+                break;
+                case 'C':
+                fineAmount = daysOverdue * C;
+                break;
+                case 'D':
+                fineAmount = daysOverdue * D;
+                break;
+                case 'E':
+                fineAmount = daysOverdue * E;
+                break;
+                case 'F':
+                fineAmount = daysOverdue * F;
+                break;
+                default:
+                System.out.println("Invalid input");
+                continue;
             }
-            System.out.print("Your fine is $" + fineAmount);
+
+            //output
+            System.out.println("Your fine is $" + fineAmount);
         }
     }
 }
